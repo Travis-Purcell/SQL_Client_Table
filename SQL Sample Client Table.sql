@@ -2,14 +2,14 @@ CREATE TABLE clients (
             id INTEGER,
             name TEXT,
             birthday DATE,
-  			service TEXT
+  	    service TEXT
   );
 
   
 INSERT INTO clients (id, name, birthday, service)
 VALUES (1, 'Jane Doe', '1990-05-30', 'mobile insurance'),
-		(2, 'John Doe', '1987-09-21', 'smart home insurance'), 
-		(3, 'Tarquin Woodsorrel', '1955-08-13', 'carrot insurance');
+	(2, 'John Doe', '1987-09-21', 'smart home insurance'), 
+	(3, 'Tarquin Woodsorrel', '1955-08-13', 'carrot insurance');
 
 
 #Updated name
